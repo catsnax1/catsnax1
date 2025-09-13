@@ -1,19 +1,23 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Mallys</title>
+<title>Mallys - Virus Game</title>
 <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-<h1>Mallys: Virus Infiltration</h1>
-<div id="game">
-  <div id="computer-list">
+<div id="desktop">
+  <div class="window" id="messageWindow">
+    <div class="titlebar">
+      <span>Notification</span>
+      <button class="closeBtn" id="closeMsg">&times;</button>
+    </div>
+    <div class="content">
+      <p>Welcome to Windows 10!</p>
+      <button id="actionBtn">Click Me</button>
+    </div>
   </div>
-  <button id="hackBtn">Attempt Hack</button>
-  <p>Resources: <span id="resources">0</span></p>
 </div>
 
 <script src="script.js"></script>
